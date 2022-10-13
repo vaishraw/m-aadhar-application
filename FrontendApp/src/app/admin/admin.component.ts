@@ -18,7 +18,7 @@ export class AdminComponent implements OnInit {
   ngOnInit(): void {
     this.signupForm = new FormGroup({
       username: new FormControl(null, Validators.required),
-      phone: new FormControl(null, [Validators.required]),
+      password: new FormControl(null, [Validators.required]),
       
     });
   }
